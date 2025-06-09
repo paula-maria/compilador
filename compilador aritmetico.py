@@ -1,7 +1,7 @@
 class Token:
     def __init__(self, type, value):
         self.type = type  # INTEGER, FLOAT, PLUS, EOF
-        self.value = value  # valor concreto: 2, 3.5, '+', None
+        self.value = value  
     
     def __str__(self):
         """Representação em string do token para debug"""
